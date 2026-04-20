@@ -129,7 +129,7 @@ export default function Projects() {
               <div className="absolute top-8 right-8 z-20">
                 <button
                   onClick={() => setSelectedProject(null)}
-                  className="glass p-2 rounded-full hover:bg-white/10 transition-colors"
+                  className="glass p-2 rounded-full hover:bg-white/10 transition-colors cursor-pointer"
                 >
                   <X size={24} />
                 </button>

@@ -9,8 +9,17 @@
 }
 
 @layer base {
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-zinc-100 antialiased selection:bg-violet-500/30;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+  * {
+    box-sizing: border-box;
   }
 }
 
