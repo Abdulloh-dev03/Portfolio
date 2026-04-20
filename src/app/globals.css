@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-accent: #a78bfa;
+  --color-muted: #71717a;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-zinc-100 antialiased selection:bg-violet-500/30;
+  }
+}
+
+.glass, .glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.violet-glow {
+  background: rgba(167, 139, 250, 0.15);
+  width: 400px;
+  height: 400px;
+}
+
+.blue-glow {
+  background: rgba(59, 130, 246, 0.1);
+  width: 300px;
+  height: 300px;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #fff 0%, #a1a1aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+

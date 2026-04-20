@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "role": "Full-Stack va Sun'iy Intellekt",
+    "firstName": "ABDULLOH",
+    "lastName": "ORTIQOV",
+    "bio": "Men Next.js va sun'iy intellektdan foydalangan holda aqlli, kengaytiriladigan va jozibali veb-tajribalarni yarataman.",
+    "viewProjects": "Loyihalarni ko'rish",
+    "downloadCv": "CV ni yuklab olish",
+    "featuredProject": "Asosiy Loyiha",
+    "liveDemo": "Jonli Namoyish",
+    "tech": "Texnologiya: React + TypeScript",
+    "status": "Holat: Faol"
+  },
+  "Navbar": {
+    "about": "Haqimda",
+    "works": "Loyihalar",
+    "contact": "Aloqa"
+  },
+  "About": {
+    "title": "Haqimda",
+    "text": "Men g'oyalarni haqiqiy, ishlaydigan mahsulotlarga aylantirishdan zavqlanadigan ishtiyoqli full-stack dasturchi va talabaman. Asosiy e'tiborim toza arxitektura, intuitiv foydalanuvchi interfeysi va mazmunli funksionallikka ega zamonaviy veb-ilovalarni yaratishga qaratilgan. Men JavaScript, Next.js va backend tizimlari kabi texnologiyalar bilan faol ishlayapman, shuningdek aqlliroq va dinamikroq ilovalar yaratish uchun sun'iy intellekt integratsiyasini o'rganyapman. Nafaqat ishlaydigan, balki jozibali va kengaytiriladigan loyihalarni qurish uchun dizayn, mantiq va muammolarni hal qilishni birlashtirish menga yoqadi. Hozirda AI asosidagi platformalar, bulutli dasturlash muhitlari va dasturchilar uchun vositalar kabi ilg'or loyihalarni yaratish orqali malakamni oshirishga e'tibor qaratyapman."
+  },
+  "Skills": {
+    "title": "Ko'nikmalar va Vositalar",
+    "subtitle": "Zamonaviy va kengaytiriladigan ilovalar qurish uchun men foydalanadigan texnologiyalar",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Ma'lumotlar bazasi",
+      "tools": "Vosita va Integratsiyalar"
+    }
+  },
+  "Projects": {
+    "title": "Tanlangan Loyihalar",
+    "clickToExplore": "Kashf etish uchun bosing",
+    "status": "Holat",
+    "liveDemo": "Jonli Namoyish",
+    "sourceCode": "Manba KODI",
+    "technologies": "Texnologiyalar",
+    "items": {
+      "aiTeach": {
+        "name": "AI Teach Atelier",
+        "category": "EdTech va AI",
+        "details": "Talabalar ta'lim usulini inqilob qilishga mo'ljallangan sun'iy intellektga asoslangan mukammal dasturlash ta'limi platformasi. Next.js, OpenAI API va Framer Motion orqali qurilgan.",
+        "status": "Ishlab chiqarishda"
+      },
+      "ecommerce": {
+        "name": "Zamonaviy E-Commerce",
+        "category": "Mikroservislar",
+        "details": "Mikroservis arxitekturasidan foydalanadigan kengaytiriladigan e-commerce infratuzilmasi. To'lovlar uchun Stripe, autentifikatsiya uchun Clerk va hodisalar xabarlashuvi uchun Kafka integratsiya qilingan.",
+        "status": "Beta"
+      },
+      "furniture": {
+        "name": "Furniture Boutique",
+        "category": "E-commerce UX",
+        "details": "Immersiv UX va silliq animatsiyalarga qaratilgan yuqori darajadagi mebel bozori. Inventar va xaridor buyurtmalarini boshqarish uchun mustahkam full-stack poydevorida qurilgan.",
+        "status": "Jonli"
+      },
+      "chattype": {
+        "name": "ChatType",
+        "category": "Real vaqtdagi Aloqa",
+        "details": "Tezlik va ishonchlilik uchun qurilgan real vaqtdagi aloqa platformasi. Xabarlarni bir zumda yetkazib berish uchun WebSockets va minimal, e'tibor qaratilgan yozish interfeysidan foydalanadi.",
+        "status": "Ishlab chiqarishda"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Birgalikda Nimanidir Quraylik.",
+    "labels": {
+      "fullName": "To'liq Ism",
+      "email": "Elektron Pochta",
+      "message": "Xabar"
+    },
+    "placeholders": {
+      "fullName": "Jon Doe",
+      "email": "john@example.com",
+      "message": "Loyihangiz haqida so'zlab bering..."
+    },
+    "submit": "Bog'lanish"
+  }
+}
