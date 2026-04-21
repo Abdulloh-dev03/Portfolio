@@ -29,6 +29,19 @@ export default function Navbar() {
     setIsMobileOpen(false);
   };
 
+  // Handle anchor navigation with smooth scroll
+  const handleNavClick = (href: string) => {
+    setIsMobileOpen(false);
+    
+    // Small delay to ensure menu closes first
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 50);
+  };
+
   const navLinks = [
     { href: "#about", label: t("about") },
     { href: "#projects", label: t("works") },
@@ -53,6 +66,10 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNavClick(link.href);
+                }}
                 className="hover:text-white transition-colors"
               >
                 {link.label}
@@ -140,7 +157,10 @@ export default function Navbar() {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => setIsMobileOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick(link.href);
+                  }}
                   className="text-sm font-bold uppercase tracking-widest text-zinc-400 hover:text-white transition-colors py-1"
                 >
                   {link.label}
