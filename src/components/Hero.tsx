@@ -84,7 +84,7 @@ export default function Hero() {
           </a>
 
           <motion.a
-            href="/Abdulloh_Ortiqov.CV.pdf"
+            href="/Abdulloh-Ortiqov.Cv.pdf"
             download
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.97 }}
