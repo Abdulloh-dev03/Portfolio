@@ -1,0 +1,81 @@
+{
+  "Hero": {
+    "role": "Full-Stack & AI Enthusiast",
+    "firstName": "ABDULLOH",
+    "lastName": "ORTIQOV",
+    "bio": "I build intelligent, scalable, and immersive web experiences using Next.js and AI.",
+    "viewProjects": "View Projects",
+    "downloadCv": "Download CV",
+    "featuredProject": "Featured Project",
+    "liveDemo": "Live Demo",
+    "tech": "Tech: React + TypeScript",
+    "status": "Status: Active"
+  },
+  "Navbar": {
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "About": {
+    "title": "About Me",
+    "text": "I’m a passionate full-stack developer and student who enjoys turning ideas into real, working products. My focus is on building modern web applications with clean architecture, intuitive user experiences, and meaningful functionality. I’ve been working actively with technologies like JavaScript, Next.js, and backend systems, while also exploring AI integration to create smarter and more dynamic applications. I enjoy combining design, logic, and problem-solving to build projects that are not just functional, but engaging and scalable. Currently, I’m focused on improving my skills by building advanced projects such as AI-powered platforms, cloud-based coding environments, and developer tools."
+  },
+  "Skills": {
+    "title": "Skills & Tools",
+    "subtitle": "Technologies I use to build modern, scalable applications",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "tools": "Tools & Integrations"
+    }
+  },
+  "Projects": {
+    "title": "Featured Works",
+    "clickToExplore": "Click to explore",
+    "status": "Status",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "technologies": "Technologies",
+    "items": {
+      "aiTeach": {
+        "name": "AI Teach Atelier",
+        "category": "EdTech & AI",
+        "details": "A premium AI-powered coding education platform designed to revolutionize how students learn. Built with Next.js, OpenAI API, and Framer Motion for a seamless learning experience.",
+        "status": "Production"
+      },
+      "ecommerce": {
+        "name": "Modern E-Commerce",
+        "category": "Microservices",
+        "details": "A scalable e-commerce infrastructure using microservices architecture. Integrated with Stripe for payments, Clerk for authentication, and Kafka for event-driven messaging.",
+        "status": "Beta"
+      },
+      "furniture": {
+        "name": "Furniture Boutique",
+        "category": "E-commerce UX",
+        "details": "A high-end furniture marketplace focusing on immersive UX and smooth animations. Built with a robust full-stack foundation to handle inventory and customer orders.",
+        "status": "Live"
+      },
+      "chattype": {
+        "name": "ChatType",
+        "category": "Real-time Comms",
+        "details": "A real-time communication platform built for speed and reliability. Uses WebSockets for instant message delivery and a minimal, focused typing interface.",
+        "status": "Production"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Let's Build Something.",
+    "labels": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "message": "Message"
+    },
+    "placeholders": {
+      "fullName": "John Doe",
+      "email": "john@example.com",
+      "message": "Tell me about your project..."
+    },
+    "submit": "Get in touch"
+  }
+}
